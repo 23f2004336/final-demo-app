@@ -1,0 +1,23 @@
+/* Custom styles for the Enhanced Note App */
+
+body {
+    background-color: #f8f9fa; /* Light background for the page */
+}
+
+.container {
+    max-width: 800px; /* Limit content width for better readability on larger screens */
+}
+
+.card {
+    border: none;
+    border-radius: 0.75rem;
+}
+
+.list-group-item {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.5rem;
+}
+
+.list-group-item + .list-group-item {
+    margin-top: 0.75rem; /* Add space between list items */
+}
